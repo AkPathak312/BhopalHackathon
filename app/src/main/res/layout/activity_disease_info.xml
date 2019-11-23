@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".DiseaseInfo">
+
+    <TextView
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Below are the possible diseases which patients had having similar symptoms like the one mentioned previously."
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="#800000"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Random Forest :"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp">
+        <TextView
+            android:id="@+id/txtRandomForest"
+            android:layout_gravity="center"
+            android:textColor="#00ff00"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result 1 :"/>
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="#800000"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Decision Tree :"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp">
+        <TextView
+            android:id="@+id/txtDecisionTree"
+            android:layout_gravity="center"
+            android:textColor="#ff0000"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result 2"/>
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="#800000"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Bayes Naive :"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp">
+        <TextView
+            android:id="@+id/txtBayesNaive"
+            android:layout_gravity="center"
+            android:textColor="#0000ff"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result 3"/>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/btnbacktoprediction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#fff"
+        android:text="Go Back"
+        android:layout_margin="10dp"/>
+</LinearLayout>

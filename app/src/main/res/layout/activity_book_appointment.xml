@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".BookAppointment">
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/doctor"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/txtUserName"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:hint="Your Name"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reason for Appointment"/>
+    <EditText
+        android:layout_marginLeft="5dp"
+        android:id="@+id/txtdescription"
+        android:layout_width="match_parent"
+        android:hint="Brief description about\npurpose of appointment."
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/datebtn"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:text="Select Meeting Date"
+        android:textColor="#fff" />
+    <EditText
+        android:id="@+id/txtdateshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:editable="false"/>
+    <Button
+        android:id="@+id/btnconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:background="#0000FF"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textColor="#fff"/>
+</LinearLayout>

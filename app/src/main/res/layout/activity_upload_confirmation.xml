@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".UploadConfirmation">
+
+
+
+
+    <TextView
+
+        android:layout_marginTop="70dp"
+        android:id="@+id/txtShop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:text="Your Prescription has been uploaded to the\nshop\n"/>
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/tick"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnBacktoDashboard"
+        android:layout_width="match_parent"
+        android:onClick="backtodashboard"
+        android:layout_marginRight="10dp"
+        android:background="#98afc7"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="Back to Dashboard"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Aniket Pathak"
+        android:textSize="24dp"
+        android:textColor="#000"
+        android:fontFamily="monospace"/>
+    <TextView
+        android:id="@+id/txtPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physician"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Road No.1, Doctor's Colony\nNear Patliputra Chauraha\nPatna-800032"/>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnFee"
+            android:clickable="false"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Fee: Rs. 500"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:background="#000"/>
+
+        <Button
+            android:id="@+id/btnAppointment"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:background="#000"
+            android:text="E-Appointment"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>

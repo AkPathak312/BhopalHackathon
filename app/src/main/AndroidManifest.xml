@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aniket.hackathon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".RecommendedDoctors"></activity>
+        <activity android:name=".WebViewMap" />
+        <activity android:name=".UploadConfirmation" />
+        <activity
+            android:name=".MedicAroundMe"
+            android:label="Medics around me"
+            android:parentActivityName=".MainDashBoard"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainDashBoard" />
+        </activity>
+        <activity android:name=".AppointmentConfirmation" />
+        <activity android:name=".DiseaseInfo"
+            android:label="Symptoms Analyser"
+            android:parentActivityName=".DiseasePrediction"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"></activity>
+        <activity android:name=".WaitingScreen" />
+        <activity android:name=".DiseasePrediction" />
+        <activity android:name=".MainDashBoard" />
+        <activity android:name=".UploadPrescription" />
+        <activity
+            android:name=".BookAppointment"
+            android:label="Book Appointment"
+            android:parentActivityName=".Doctors"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Doctors" />
+        </activity>
+        <activity
+            android:name=".Hospitals"
+            android:label="Hospitals around."
+            android:parentActivityName=".MedicAroundMe"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MedicAroundMe" />
+        </activity>
+        <activity
+            android:name=".Complains"
+            android:label="Post your Complains."
+            android:parentActivityName=".MainDashBoard"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashBoard" />
+        </activity>
+        <activity
+            android:name=".InitView"
+            android:label="Know about Initiatives"
+            android:parentActivityName=".GovtInitiatives"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GovtInitiatives" />
+        </activity>
+        <activity
+            android:name=".GovtInitiatives"
+            android:label="Govt. Initiatives"
+            android:parentActivityName=".MainDashBoard"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DashBoard" />
+        </activity>
+        <activity
+            android:name=".Doctors"
+            android:label="Doctors around me!!!"
+            android:parentActivityName=".MainDashBoard"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainDashBoard" />
+        </activity>
+        <activity android:name=".DashBoard" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="barcode" />
+    </application>
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

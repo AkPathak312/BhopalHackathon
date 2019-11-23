@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "478831994836",
+    "firebase_url": "https://healthapp-a2093.firebaseio.com",
+    "project_id": "healthapp-a2093",
+    "storage_bucket": "healthapp-a2093.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478831994836:android:eacb8ebd6e998963",
+        "android_client_info": {
+          "package_name": "com.aniket.hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478831994836-pjqj68ujmj9run646mm48if5g61h04n8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aniket.hackathon",
+            "certificate_hash": "a0816a8316ef856f004c73eda99c4cf584e90bdd"
+          }
+        },
+        {
+          "client_id": "478831994836-0e13iv5kif57cna3cec1eg2vtsmgo9oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL-mpqoDrPKFUQlfo15I8nRbT3CZ3miyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478831994836-0e13iv5kif57cna3cec1eg2vtsmgo9oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478831994836:android:284a2751160c20b8",
+        "android_client_info": {
+          "package_name": "com.aniket.healthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478831994836-8qdr9c3q7t68s4dtg1ra1dehsckjkhh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aniket.healthapp",
+            "certificate_hash": "a0816a8316ef856f004c73eda99c4cf584e90bdd"
+          }
+        },
+        {
+          "client_id": "478831994836-0e13iv5kif57cna3cec1eg2vtsmgo9oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL-mpqoDrPKFUQlfo15I8nRbT3CZ3miyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478831994836-0e13iv5kif57cna3cec1eg2vtsmgo9oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
